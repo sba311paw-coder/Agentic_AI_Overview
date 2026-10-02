@@ -59,3 +59,18 @@ Open `AI-Agentic-AI-Master-Academy-Dashboard-HumanInTheLoopAI.pdf`
 directly in GitHub's built-in PDF preview — it's a static snapshot, so
 it won't have the flashcards/quizzes/interactivity, but it's the
 fastest way to see the content with zero setup.
+
+
+## New Version 2 companion — 2026-10-02
+
+[Open version 2](https://sba311paw-coder.github.io/Agentic_AI_Overview/AI-Agentic-AI-Master-Academy-Dashboard-v2.html#projects). The original dashboard, its URL and PDF/v1 artifacts are preserved.
+
+Version 2 adds a light default, softer dark option, SVG navigation and learning diagrams, expanded goals/approaches, prerequisites, deliverables and acceptance checks for all 16 project ideas. Separate built/tested/rebuilt/explained evidence, safe links and debugging notes support independent learning. All 80 lessons are retained with targeted teaching corrections. Evaluation/security start early; multi-agent work is optional after C08; production requires human approval and operational evidence.
+
+[Public project mapping and evidence guide](v2/project-guide.html) works without access to the private canonical repository. [AI Engineer Path](https://github.com/sba311paw-coder/ai-engineer-path) remains the canonical curriculum owner; authorized GitHub access is required.
+
+Version 2 uses its own `aiAcademy_v2` browser storage and does not alter original `aiAcademy_v1` progress. Export/import JSON is local and explicit; import validates and previews replacement, supports cancellation and preserves a local pre-import snapshot. There is no automatic synchronization, account, analytics or AI API. Personal checkmarks do not certify mastery.
+
+The new HTML loads local files in `v2/`, including readable course data, lesson units and application scripts. Keep the HTML and that directory together when downloading; no build step or external runtime dependency is needed. Native SVG replaces the large diagram bundle; readable relationships and original diagram descriptions remain available.
+
+Run `node tests/progress.test.cjs`. See [CHANGELOG.md](CHANGELOG.md) and [DESIGN.md](DESIGN.md). Browser checks cover desktop/mobile layout, local evidence save/reload, search/filter, themes and import preview/cancel/apply. Backup JSON generation is regression-tested; a completed browser download event was not verified in the in-app browser.

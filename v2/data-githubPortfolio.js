@@ -1,0 +1,1 @@
+window.ACADEMY_DATA["githubPortfolio"] = ["01-ai-foundations", "02-python", "03-software-engineering", "04-apis-data", "05-llm", "06-rag", "07-agents", "08-agentic-workflows", "09-multi-agent", "10-mcp", "11-production", "12-security-evaluation", "13-cloud", "14-capstone"];
